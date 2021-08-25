@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- TODO 
+хэдэр поситион стикки
+пункты меню премещают в заданные места сайта
+прочесть про якоря, window.location.hash, window.addEVENTLISTENER
+во время скрола - эффект параллакса
+сделать слайдэр 
+ленивое сравнение js
+сравнить массивы спсобом перевода в строки
+методы перебора обьектов, массивов.
+-->
+  <body>
+    <div class="main-wraper">
+      <header>
+        <img alt="logo" src="img/LOGO.png" class="header-logo" />
+        <div class="header-container-1">
+          <a href="#sell" class="header-menu asd">Sell</a>
+          <a href="#marketplace" class="header-menu asd">Marketplace</a>
+          <a href="#community" class="header-menu asd">Community</a>
+          <a href="#develop" class="header-menu asd">Develop</a>
+          <a href="#resources" class="header-menu asd">Resources</a>
+        </div>
+        <div class="header-container-2">
+          <a href="#">Log In</a>
+          <a href="#" class="get-started">Get Started</a>
+          <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+      </header>
+      <div class="wraper-1">
+        <img class="paralax-img" src="img/featured-image.png" />
+        <div class="content-wraper-1">
+          <div class="wraper-1-title">
+            Building exactly the eCommerce website you want.
+          </div>
+          <div class="wraper-1-description">
+            WooCommerce is a customizable, open-source eCommerce platform built
+            on WordPress. Get started quickly and make your way.
+          </div>
+          <div class="wraper-1-buttons">
+            <a href="#" class="Start">Start a New Store</a> or
+            <a href="#" class="customize">Customize & Extend ›</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="wraper-2">
+        <div class="wraper-2-title" id="sell">Your eCommerce made simple</div>
+        <div class="wraper-2-content">
+          <div class="wraper-2-container-1">
+            <img src="img/Group 26.png" alt="non" class="wraper-2-img-1" />
+            <div class="container-title">All You Need to Start</div>
+            <div class="container-subtitle">
+              Add WooCommerce plugin to any WordPress site and set up a new
+              store in minutes.
+            </div>
+            <a href="#" class="container-button">Ecommerce for Wordpress ›</a>
+          </div>
+
+          <div class="wraper-2-container-2">
+            <img src="img/Group 27.png" alt="non" class="wraper-2-img-2" />
+            <div class="container-title">Customize and Extend</div>
+            <div class="container-subtitle">
+              From subscriptions to gym classes to luxury cars, WooCommerce is
+              fully customizable.
+            </div>
+            <a href="#" class="container-button">Browse Extensions ›</a>
+          </div>
+
+          <div class="wraper-2-container-3">
+            <img src="img/Group 28.png" alt="non" class="wraper-2-img-3" />
+            <div class="container-title">Active Community</div>
+            <div class="container-subtitle">
+              WooCommerce is one of the fastest-growing eCommerce communities.
+            </div>
+            <a href="#" class="container-button">Check our Forums ›</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="wraper-3">
+        <div class="wraper-3-container-1">
+          <img
+            src="img/Rectangle236 (1).png"
+            alt="non"
+            class="wraper-3-img-1"
+          />
+          <div class="wraper-3-text">
+            <div class="container-title" id="marketplace">
+              Develop Without Limits
+            </div>
+            <div class="container-subtitle">
+              WooCommerce is developer friendly, too. Built with a REST API,
+              WooCommerce is scalable and can integrate with virtually any
+              service. Design a complex store from scratch, extend a store for a
+              client, or simply add a single product to a WordPress site—your
+              store, your way.
+            </div>
+            <a href="#" class="button">Read the Documentation</a>
+          </div>
+        </div>
+        <div class="wraper-3-container-2">
+          <div class="wraper-3-text">
+            <div class="container-title">Know our Global Community</div>
+            <div class="container-subtitle">
+              WooCommerce is one of the fastest-growing eCommerce communities.
+              We’re proud that the helpfulness of the community and a wealth of
+              online resources are frequently cited as reasons our users love
+              it. There are 80+ meetups worldwide!
+            </div>
+            <a href="#" class="button">Read the Documentation</a>
+          </div>
+          <img
+            src="img/Rectangle236 (2).png"
+            alt="non"
+            class="wraper-3-img-2"
+          />
+        </div>
+      </div>
+      <div class="wraper-4">
+        <img src="/img/Group 29.png" alt="" class="wraper-4-main-img" />
+        <div class="wraper-4-title" id="community">
+          Trusted by Agencies & Store Owners
+        </div>
+        <!-- <div class="slider"> -->
+          <div class="wraper-4-content slider-item" id="">
+            <img src="img/pepe.png" alt="non" class="wraper-4-img-2" />
+            <div class="wraper-4-content-txt">
+              1 No other eCommerce platform allows people to start for free and
+              grow their store as their business grows. More importantly,
+              WooCommerce doesn't charge you a portion of your Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Id, perferendis.
+            </div>
+          </div>
+          <div class="wraper-4-content sub slider-item" id="">
+            <img src="img/pepe.png" alt="non" class="wraper-4-img-2" />
+            <div class="wraper-4-content-txt">
+              2 No other eCommerce platform allows people to start for free and
+              grow their store as their business grows. More importantly,
+              WooCommerce doesn't charge you a portion of your profits as your
+              business grows!
+            </div>
+          </div>
+          <div class="wraper-4-content sub slider-item" id="">
+            <img src="img/pepe.png" alt="non" class="wraper-4-img-2" />
+            <div class="wraper-4-content-txt">
+              3 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Quaerat ea dignissimos ex, sed sequi autem labore optio
+              voluptatibus quasi nisi officiis illum. Sapiente aperiam modi
+              perferendis ut debitis quas maiores, illo et minus. Officiis nemo,
+              debitis in rerum eveniet doloremque commodi? Quibusdam dolore nam
+              consequuntur dicta dolsdjkjdsiffmjioj
+            </div>
+          <!-- </div> -->
+
+          <!-- <div class="wraper-4-content sub" id="slider">
+          <img src="img/pepe.png" alt="non" class="wraper-4-img-2" />
+          <div class="wraper-4-content-txt">
+            4  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ea
+            dignissimos ex, sed sequi autem labore optio voluptatibus quasi nisi
+            officiis illum. Sapiente aperiam modi perferendis ut debitis quas
+            maiores, illo et minus. Officiis nemo, debitis in rerum eveniet
+            doloremque commodi? Quibusdam dolore nam consequuntur dicta
+            dolsdjkjdsiffmjioj
+        </div> -->
+          <!-- <div class="wraper-4-content sub" id="slider">
+          <img src="img/pepe.png" alt="non" class="wraper-4-img-2" />
+          <div class="wraper-4-content-txt">
+            5  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ea
+            dignissimos ex, sed sequi autem labore optio voluptatibus quasi nisi
+            officiis illum. Sapiente aperiam modi perferendis ut debitis quas
+            maiores, illo et minus. Officiis nemo, debitis in rerum eveniet
+            doloremque commodi? Quibusdam dolore nam consequuntur dicta
+            dolsdjkjdsiffmjioj
+        </div> -->
+        </div>
+        <div class="buttons">
+          <a class="key-nav left-button" href="#no_scroll"
+            ><i class="fas fa-long-arrow-alt-left"></i
+          ></a>
+          <a class="key-nav right-button" href="#no_scroll"
+            ><i class="fas fa-long-arrow-alt-right"></i
+          ></a>
+        </div>
+      </div>
+      <div class="wraper-5">
+        <div class="wraper-5-title" id="develop">Supported by real people</div>
+        <div class="wraper-5-subtitle">
+          Our team of Happiness Engineers works remotely from 58 countries
+          providing customer support across multiple time zones.
+        </div>
+        <img class="wraper-5-img-people" alt="non" src="/img/image 24.png" />
+      </div>
+      <div class="wraper-5-content">
+        <div class="content-container">
+          <div class="wraper-5-title-2">
+            WooCommerce - the most customizable eCommerce platform for building
+            your online business.
+          </div>
+          <a href="#" class="wraper-5-button">GET STARTED</a>
+        </div>
+      </div>
+      <div class="wraper-6">
+        <div class="wraper-6-container-1">
+          <div class="wraper-6-container-1-content">
+            <div class="cont-1">
+              <img src="/img/Vector (4).png" alt="none" class="cont-2-img" />day
+              money back guarantee
+            </div>
+            <div class="cont-2">
+              <img
+                src="/img/Union (1).png"
+                alt="none"
+                class="cont-2-img"
+              />Support teams across the world
+            </div>
+            <div class="cont-3">
+              <img src="/img/Union (2).png" alt="none" class="cont-2-img" />Safe
+              & Secure online payment
+            </div>
+          </div>
+          <img
+            id="resources"
+            src="/img/LOGO (1).png"
+            alt="none"
+            class="logo-wraper-6"
+          />
+        </div>
+        <div class="line"></div>
+        <div class="wraper-6-container-2">
+          <div class="list-1">
+            <div class="list-title">Who we Are</div>
+            <a href="#">About</a>
+            <a href="#">Team</a>
+            <a href="#">Work With Us</a>
+          </div>
+          <div class="list-2">
+            <div class="list-title">Woocommerce</div>
+            <a href="#">Features</a>
+            <a href="#">Payments</a>
+            <a href="#">Marketing</a>
+            <a href="#">Shipping</a>
+            <a href="#">Extension Store</a>
+            <a href="#">eCommerce blog</a>
+            <a href="#">Development blog</a>
+            <a href="#">Ideas board</a>
+            <a href="#">Mobile App</a>
+            <a href="#">Community</a>
+            <a href="#">Style Guide</a>
+            <a href="#">Email Newsletter</a>
+          </div>
+          <div class="list-3">
+            <div class="list-title">Other products</div>
+            <a href="#">Storefront</a>
+            <a href="#">WooSlider</a>
+            <a href="#">Sensei</a>
+            <a href="#">Sensei Extensions</a>
+          </div>
+          <div class="list-4">
+            <div class="list-title">Support</div>
+            <a href="#">Documentation</a>
+            <a href="#">Customizations</a>
+            <a href="#">Support Policy</a>
+            <a href="#">Contact</a>
+            <a href="#">COVID-19 Resources</a>
+            <a href="#">Privacy Notice for</a>
+            <a href="#">California Users</a>
+          </div>
+          <div class="list-5">
+            <div class="list-title">We recommend</div>
+            <a href="#">WooExperts</a>
+            <a href="#">Hosting Solutions</a>
+            <a href="#">Pre-sales FAQ</a>
+            <a href="#">Success Stories</a>
+            <a href="#">Design Feedback Group</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="icons">
+          <a href="#" class="first-a"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fas fa-wifi"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-txt">
+          COPYRIGHT WOOCOMMERCE 2020 - TERMS & CONDITIONS PRIVACY POLICY
+        </div>
+        <img class="footer-logo" src="/img/image 25.png" />
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
